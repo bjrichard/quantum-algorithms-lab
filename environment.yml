@@ -1,4 +1,4 @@
-name: quantum-algorithms-lab
+nname: quantum-algorithms-lab
 
 channels:
   - conda-forge
@@ -6,5 +6,9 @@ channels:
 
 dependencies:
   - python>=3.10,<3.12
+  - numpy
+  - scipy
   - qiskit
+  - qiskit-aer
+  - qiskit-algorithms
   - jupyterlab
